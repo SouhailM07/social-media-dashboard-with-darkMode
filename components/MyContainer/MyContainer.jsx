@@ -1,12 +1,15 @@
 import "./mycontainer.css";
 //
-import { Header } from "@/components";
+import { Header, TopBg } from "@/components";
 
 export default function MyContainer() {
   return (
     <>
-      <div className=" m-auto w-[80vw]">
-        <Header />
+      <div className=" w-[100vw]">
+        <TopBg />
+        <div className="w-[80vw] m-auto">
+          <Header />
+        </div>
       </div>
     </>
   );

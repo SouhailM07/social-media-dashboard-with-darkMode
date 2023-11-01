@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+header {
+  @apply flex justify-between;
+  @apply my-[3rem];
+}
+
+#Header-s1-h1 {
+  @apply font-bold;
+  @apply text-[2.3rem];
+  @apply dark:text-whiteText;
+}
+
+p {
+  @apply font-bold;
+  @apply text-[1.15rem];
+  @apply text-d_text;
+}
+
+#Header-s2 {
+  @apply flex justify-between items-center;
+  @apply flex w-[10.5rem];
+}
+
+span {
+  @apply dark:text-d_text;
+}
+
+#Header-s2-button {
+  @apply rounded-full outline-none;
+  @apply w-[4rem] h-[2rem];
+  @apply dark:pl-1 pl-9 bg-[#aeb3cb] bg-gradient-to-r dark:from-[#378fe6] dark:to-[#3eda82];
+}
+
+#Header-s2-button div {
+  @apply rounded-full;
+  @apply h-[1.3rem] w-[1.3rem];
+  @apply bg-white dark:bg-black;
+}
