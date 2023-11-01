@@ -1,8 +1,8 @@
 export default function Loading() {
   return (
-    <div class="loader-background">
-      <span class="loader">
-        <span class="loader-inner"></span>
+    <div className="loader-background">
+      <span className="loader">
+        <span className="loader-inner"></span>
       </span>
     </div>
   );
