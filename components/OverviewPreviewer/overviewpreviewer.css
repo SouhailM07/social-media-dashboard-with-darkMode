@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 .OverviewPreviewer {
-  @apply rounded-lg  flex flex-col justify-between;
+  @apply rounded-lg  flex flex-col justify-between cursor-pointer;
   @apply mb-[1.8rem] w-[17rem] h-[9rem] py-[1.4rem] px-[1.8rem];
-  @apply dark:bg-d_card bg-l_CardBG;
+  @apply dark:bg-d_card bg-l_CardBG hover:bg-gray-300 dark:hover:bg-gray-700;
 }
 
 .OverviewPreviewer-s1 {

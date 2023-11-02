@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 .FollowersPreviewer {
-  @apply flex flex-col items-center rounded-lg justify-around;
+  @apply flex flex-col items-center rounded-lg justify-around cursor-pointer;
   @apply mb-2 pb-[1rem] w-[17rem] h-[15.5rem];
-  @apply dark:bg-d_card bg-l_CardBG;
+  @apply dark:bg-d_card bg-l_CardBG hover:bg-gray-300 dark:hover:bg-gray-700;
 }
 
 .FollowersPreviewer-line {

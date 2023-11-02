@@ -30,12 +30,12 @@ span {
 
 #Header-s2-button {
   @apply rounded-full outline-none;
-  @apply w-[4rem] h-[2rem];
-  @apply dark:pl-1 pl-9 bg-[#aeb3cb] bg-gradient-to-r dark:from-[#378fe6] dark:to-[#3eda82];
+  @apply w-[3.8rem] h-[2rem];
+  @apply dark:pl-1 pl-[2rem] bg-[#aeb3cb] bg-gradient-to-r dark:from-[#378fe6] dark:to-[#3eda82];
 }
 
 #Header-s2-button div {
   @apply rounded-full;
-  @apply h-[1.3rem] w-[1.3rem];
+  @apply h-[1.4rem] w-[1.4rem];
   @apply bg-white dark:bg-d_topBGPattern;
 }
