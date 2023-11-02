@@ -4,7 +4,7 @@
 
 header {
   @apply flex justify-between;
-  @apply my-[3rem];
+  @apply mt-[3rem];
 }
 
 #Header-s1-h1 {
@@ -37,5 +37,5 @@ span {
 #Header-s2-button div {
   @apply rounded-full;
   @apply h-[1.3rem] w-[1.3rem];
-  @apply bg-white dark:bg-black;
+  @apply bg-white dark:bg-d_topBGPattern;
 }

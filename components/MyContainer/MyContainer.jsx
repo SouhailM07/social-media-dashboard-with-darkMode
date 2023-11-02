@@ -1,6 +1,6 @@
 import "./mycontainer.css";
 //
-import { Header, TopBg } from "@/components";
+import { Header, TopBg, Followers, Overview } from "@/components";
 
 export default function MyContainer() {
   return (
@@ -9,6 +9,7 @@ export default function MyContainer() {
         <TopBg />
         <div className="w-[80vw] m-auto">
           <Header />
+          <Followers />
         </div>
       </div>
     </>

@@ -9,7 +9,6 @@ export default function Header() {
       <header>
         <div id="Header-s1">
           <h1 id="Header-s1-h1">Social Media Dashboard</h1>
-          <p>Total Followers: 23,004</p>
         </div>
         {/*  */}
         <div id="Header-s2">
