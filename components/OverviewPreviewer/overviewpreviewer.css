@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.OverviewPreviewer {
+  @apply rounded-lg  flex flex-col justify-between;
+  @apply mb-[1.8rem] w-[17rem] h-[9rem] py-[1.4rem] px-[1.8rem];
+  @apply dark:bg-d_card bg-l_CardBG;
+}
+
+.OverviewPreviewer-s1 {
+  @apply flex justify-between;
+}
+
+.OverviewPreviewer-s2 {
+  @apply flex justify-between items-end;
+}
+
+.OverviewPreviewer-s2-num {
+  @apply font-bold;
+  @apply text-[2rem];
+  @apply dark:text-white;
+}
+
+.OverviewPreviewer-s2-state {
+  @apply flex items-center;
+}
+
+.OverviewPreviewer-s2-state div {
+  @apply font-bold;
+  @apply text-[1.2rem] mb-[0.3rem];
+}

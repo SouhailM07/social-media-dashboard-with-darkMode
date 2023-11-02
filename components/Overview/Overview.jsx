@@ -62,11 +62,9 @@ export default function Overview() {
   ];
   return (
     <>
-      <div className="mt-[3rem]">
-        <h2 className="dark:text-white text-[2rem] font-bold mb-[2rem]">
-          Overview - Today
-        </h2>
-        <div className="flex justify-between flex-wrap">
+      <article className="mt-[3rem]">
+        <h2 className="Overview-title">Overview - Today</h2>
+        <div className="Overview-container">
           {arrOfOverviews.map((e, i) => {
             return (
               <OverviewPreviewer
@@ -79,7 +77,7 @@ export default function Overview() {
             );
           })}
         </div>
-      </div>
+      </article>
     </>
   );
 }
