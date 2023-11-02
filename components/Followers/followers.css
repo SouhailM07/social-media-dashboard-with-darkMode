@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.Followers-title {
+  @apply font-normal;
+  @apply mb-[3rem] text-[1.2rem];
+  @apply text-d_text;
+}
+
+.Followers-container {
+  @apply flex justify-between flex-wrap;
+}

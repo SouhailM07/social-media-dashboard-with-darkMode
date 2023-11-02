@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.FollowersPreviewer {
+  @apply flex flex-col items-center rounded-lg justify-around;
+  @apply mb-2 pb-[1rem] w-[17rem] h-[15.5rem];
+  @apply dark:bg-d_card bg-l_CardBG;
+}
+
+.FollowersPreviewer-line {
+  @apply relative  rounded-tr-xl rounded-tl-xl;
+  @apply h-[0.3rem] bottom-[0.8rem] w-full;
+}
+
+.FollowersPreviewer-name {
+  @apply flex items-center;
+}
+.FollowersPreviewer-num {
+  @apply flex flex-col items-center;
+}
+
+.FollowersPreviewer-num div {
+  @apply font-bold;
+  @apply text-[3.8rem];
+  @apply dark:text-white;
+  line-height: 4.5rem;
+}
+
+.FollowersPreviewer-state {
+  @apply flex items-center;
+}
+
+.FollowersPreviewer-state img {
+  @apply mr-2 h-auto w-auto;
+}

@@ -47,10 +47,8 @@ export default function Followers() {
   return (
     <>
       <article>
-        <h3 className="mb-[3rem] text-d_text font-normal text-[1.2rem]">
-          Total Followers: 23,004
-        </h3>
-        <div className="flex justify-between flex-wrap">
+        <h3 className="Followers-title">Total Followers: 23,004</h3>
+        <div className="Followers-container">
           {arrOfFollowers.map((e, i) => {
             return (
               <FollowersPreviewer
