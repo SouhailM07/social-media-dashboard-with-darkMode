@@ -4,6 +4,6 @@
 
 #TopBg {
   @apply absolute top-0 -z-10;
-  @apply h-[20rem] w-[100vw];
+  @apply h-[20rem] w-[100%];
   @apply bg-l_topBGPattern dark:bg-d_topBGPattern;
 }
