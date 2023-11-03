@@ -26,6 +26,9 @@ module.exports = {
         l_text: "hsl(228, 12%, 44%)",
         grayText: "hsl(230, 17%, 14%)",
       },
+      screens: {
+        md: "620px",
+      },
     },
   },
   plugins: [],

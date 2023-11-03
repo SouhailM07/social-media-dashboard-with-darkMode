@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 header {
-  @apply flex justify-between;
-  @apply mt-[3rem];
+  @apply flex flex-col md:justify-between md:flex-row justify-evenly;
+  @apply mt-[3rem] md:w-[92%] md:h-auto h-[15rem] m-auto;
 }
 
 #Header-s1-h1 {
   @apply font-bold;
-  @apply text-[2.3rem];
+  @apply text-[1.7rem];
   @apply dark:text-whiteText;
 }
 
@@ -21,7 +21,7 @@ p {
 
 #Header-s2 {
   @apply flex justify-between items-center;
-  @apply flex w-[10.5rem];
+  @apply md:w-[10.5rem] md:h-auto h-[5rem] mb-[2rem]  md:mb-[2rem];
 }
 
 span {
@@ -31,7 +31,7 @@ span {
 #Header-s2-button {
   @apply rounded-full outline-none;
   @apply w-[3.8rem] h-[2rem];
-  @apply dark:pl-1 pl-[2rem] bg-[#aeb3cb] bg-gradient-to-r dark:from-[#378fe6] dark:to-[#3eda82];
+  @apply dark:pl-1 pl-[2.1rem] bg-[#aeb3cb] bg-gradient-to-r dark:from-[#378fe6] dark:to-[#3eda82];
 }
 
 #Header-s2-button div {

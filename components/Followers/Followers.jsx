@@ -1,6 +1,6 @@
 import "./followers.css";
 //
-import { FollowersPreviewer } from "@/components";
+import { FollowersPreviewer, Header } from "@/components";
 //
 import upState from "@/public/icon-up.svg";
 import downState from "@/public/icon-down.svg";
@@ -47,7 +47,6 @@ export default function Followers() {
   return (
     <>
       <article>
-        <h3 className="Followers-title">Total Followers: 23,004</h3>
         <div className="Followers-container">
           {arrOfFollowers.map((e, i) => {
             return (

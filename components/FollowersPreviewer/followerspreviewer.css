@@ -4,7 +4,7 @@
 
 .FollowersPreviewer {
   @apply flex flex-col items-center rounded-lg justify-around cursor-pointer;
-  @apply mb-2 pb-[1rem] w-[17rem] h-[15.5rem];
+  @apply mb-[1.5rem] pb-[1rem] md:w-[17rem] h-[15.5rem] w-full;
   @apply dark:bg-d_card bg-l_CardBG hover:bg-gray-300 dark:hover:bg-gray-700;
 }
 

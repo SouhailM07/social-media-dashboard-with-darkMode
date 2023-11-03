@@ -9,5 +9,5 @@
 }
 
 .Followers-container {
-  @apply flex justify-between flex-wrap;
+  @apply flex flex-wrap justify-evenly gap-4;
 }
