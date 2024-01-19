@@ -9,8 +9,8 @@
 }
 
 .Followers-container {
-  @apply grid place-items-center border-2 border-green-500 gap-y-[1rem];
-  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  @apply grid place-items-center gap-y-[1rem];
+  grid-template-columns: repeat(auto-fit, minmax(18.5rem, 1fr));
 }
 
 @media screen and (max-width: 768px) {

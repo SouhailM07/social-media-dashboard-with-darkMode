@@ -4,10 +4,17 @@
 
 .Overview-title {
   @apply font-bold;
-  @apply text-[2rem] mb-[2rem] md:w-[91%] m-auto;
+  @apply text-[1.6rem] mb-[2rem] md:px-[1.2rem] m-auto;
   @apply dark:text-white;
 }
 
 .Overview-container {
-  @apply flex justify-evenly flex-wrap gap-5 md:px-[0.7vw];
+  @apply grid place-items-center  gap-y-[1rem];
+  grid-template-columns: repeat(auto-fit, minmax(18.5rem, 1fr));
+}
+
+@media screen and (max-width: 768px) {
+  .Overview-container {
+    grid-template-columns: 1fr;
+  }
 }

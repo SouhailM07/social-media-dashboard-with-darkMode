@@ -4,7 +4,7 @@
 
 header {
   @apply flex flex-col md:justify-between md:flex-row justify-evenly;
-  @apply mt-[3rem] md:w-[92%] md:h-auto h-[15rem] m-auto;
+  @apply mt-[3rem] w-full md:h-auto h-[15rem] m-auto md:px-[1.2rem];
 }
 
 #Header-s1-h1 {

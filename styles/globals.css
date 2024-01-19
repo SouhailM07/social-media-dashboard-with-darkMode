@@ -14,9 +14,6 @@ body {
   @apply bg-white dark:bg-d_bg;
 }
 
-* {
-  transition: 0.3s;
-}
 .loader-background {
   height: 100%;
   width: 100vw;
