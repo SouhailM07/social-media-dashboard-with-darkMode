@@ -27,7 +27,7 @@ module.exports = {
         grayText: "hsl(230, 17%, 14%)",
       },
       screens: {
-        md: "620px",
+        md: "768px",
       },
     },
   },
