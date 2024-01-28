@@ -1,6 +1,6 @@
 import "./followers.css";
 //
-import { FollowersPreviewer, Header } from "@/components";
+import { FollowersPreviewer } from "@/components";
 //
 import upState from "@/public/icon-up.svg";
 import downState from "@/public/icon-down.svg";
@@ -46,8 +46,8 @@ export default function Followers() {
   ];
   return (
     <>
-      <article>
-        <div className="Followers-container">
+      <section>
+        <ul role="list" className="Followers-container">
           {arrOfFollowers.map((e, i) => {
             return (
               <FollowersPreviewer
@@ -61,8 +61,8 @@ export default function Followers() {
               />
             );
           })}
-        </div>
-      </article>
+        </ul>
+      </section>
     </>
   );
 }

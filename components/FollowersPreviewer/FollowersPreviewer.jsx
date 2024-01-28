@@ -14,17 +14,17 @@ export default function FollowersPreviewer({
       : "text-green-500";
   return (
     <>
-      <div className="FollowersPreviewer">
+      <li role="listitem" className="FollowersPreviewer">
         <div className={`${line} FollowersPreviewer-line`}></div>
         {/*  */}
         <div className="FollowersPreviewer-name">
           <Image src={img} className="mr-3" alt="logo" /> <span>{name}</span>
         </div>
         {/*  */}
-        <h3 className="FollowersPreviewer-num">
+        <h1 className="FollowersPreviewer-num">
           <div>{num}</div>
           <span style={{ letterSpacing: "4px" }}>{underNum}</span>
-        </h3>
+        </h1>
         {/*  */}
         <div className="FollowersPreviewer-state">
           <Image src={state[0]} alt="logo" />
@@ -33,7 +33,7 @@ export default function FollowersPreviewer({
           </div>
         </div>
         {/*  */}
-      </div>
+      </li>
     </>
   );
 }

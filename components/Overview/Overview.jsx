@@ -62,9 +62,9 @@ export default function Overview() {
   ];
   return (
     <>
-      <article className="mt-[3rem]">
-        <h2 className="Overview-title">Overview - Today</h2>
-        <div className="Overview-container">
+      <section className="mt-[3rem]">
+        <h1 className="Overview-title">Overview - Today</h1>
+        <ul role="list" className="Overview-container">
           {arrOfOverviews.map((e, i) => {
             return (
               <OverviewPreviewer
@@ -76,8 +76,8 @@ export default function Overview() {
               />
             );
           })}
-        </div>
-      </article>
+        </ul>
+      </section>
     </>
   );
 }

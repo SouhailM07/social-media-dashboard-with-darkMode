@@ -9,7 +9,7 @@ export default function OverviewPreviewer({ name, img, num, state }) {
       : "text-green-500";
   return (
     <>
-      <div className="OverviewPreviewer">
+      <li role="listitem" className="OverviewPreviewer">
         <div className="OverviewPreviewer-s1 ">
           <span className="font-bold">{name}</span>
           <Image src={img} alt="logo" />
@@ -18,12 +18,12 @@ export default function OverviewPreviewer({ name, img, num, state }) {
         <div className="OverviewPreviewer-s2">
           <div className="OverviewPreviewer-s2-num">{num}</div>
           <div className="OverviewPreviewer-s2-state ">
-            <Image src={state[0]} alt="logo" className=" mb-1 mr-1" />
+            <Image src={state[0]} alt="logo" className="mb-1 mr-1" />
             <div className={`${conditionalState} `}>{state[1]}</div>
           </div>
         </div>
         {/*  */}
-      </div>
+      </li>
     </>
   );
 }
